@@ -1,4 +1,4 @@
 release: python manage.py makemigrations
 release: python manage.py migrate
 
-web: gunicorn contactsapi.wsgi
+web: python manage.py runserver
