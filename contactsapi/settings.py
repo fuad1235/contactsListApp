@@ -143,7 +143,7 @@ USE_L10N = True
 USE_TZ = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:7500",
+    "http://localhost:8081",
     "https://contactslistapp.onrender.com",
 ]
 
