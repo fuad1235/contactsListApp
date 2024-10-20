@@ -1,1 +1,1 @@
-web: python manage.py runserver 0.0.0.0:7500
+web: gunicorn contactsapi.wsgi --bind 0.0.0.0:7500
