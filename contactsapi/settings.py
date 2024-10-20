@@ -142,6 +142,10 @@ USE_L10N = True
 
 USE_TZ = True
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:7500",
+]
+
 JWT_SECRET_KEY = os.environ.get('JWT_SECRET_KEY')
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
