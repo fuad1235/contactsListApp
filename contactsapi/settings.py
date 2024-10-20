@@ -144,6 +144,7 @@ USE_TZ = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:7500",
+    "https://contactslistapp.onrender.com",
 ]
 
 JWT_SECRET_KEY = os.environ.get('JWT_SECRET_KEY')
